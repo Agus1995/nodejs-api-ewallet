@@ -1,0 +1,35 @@
+{
+  "name": "ewallet",
+  "version": "1.0.0",
+  "description": "ewallet",
+  "main": "index.js",
+  "scripts": {
+    "test-init": "./node_modules/jasmine/bin/jasmine.js init",
+    "test": "./node_modules/jasmine/bin/jasmine.js"
+  },
+
+  "author": "Agus Ika",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "latest",
+    "db-migrate": "^0.11.5",
+    "db-migrate-mysql": "^1.1.10",
+    "express": "^4.16.4",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "request": "^2.88.0",
+    "sequelize": "^5.8.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "jasmine": "^3.4.0",
+    "jasmine-node": "^3.0.0",
+    "nodemon": "^1.19.0"
+  }
+}

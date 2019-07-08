@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "host": "localhost",
+    "user": "root",
+    "password" : "3sk10000*",
+    "database": "db_migrate",
+    "driver": "mysql",
+    "multipleStatements": true
+  }
+}
